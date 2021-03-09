@@ -16,7 +16,7 @@ namespace CodingChallenges
                 int x = i % 3; //if it = 0 then we know its a multiple of 3 or 5 below
                 int y = i % 5;
                 if (x == 0 || y == 0)
-                {
+                { 
                     //Console.Write("{0}  ", i);
                     sum = sum + i; //adding all of the i's that equal 0 which then adds up to our answer
                 }
