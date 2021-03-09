@@ -19,8 +19,8 @@ namespace CodingChallenges
                 { 
                     //Console.Write("{0}  ", i);
                     sum = sum + i; //adding all of the i's that equal 0 which then adds up to our answer
-                }
-            }
+                }//end if statement
+            }//end for loop
             Console.WriteLine("Multiples of 3 and 5 in 1000 = {0}\n", sum);
             Console.Read();
 
