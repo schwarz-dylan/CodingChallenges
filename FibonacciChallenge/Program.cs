@@ -55,25 +55,19 @@ namespace FibonacciChallenge
 
         static void Main(string[] args)
         {
-            //long numb1 = 1; //define the variables
-            //long numb2 = 2;
-            //long outcome = numb1 + numb2; //initialize the result of newely calculated fibonacci variable
-            //long added = 0; //same for the summing variable
+            //Create a new, public repository and add a blank solution. Add a new Console Application project called FibonacciEvenSum.
 
-            //while (outcome < 4000000 ) // loop until the "outcome" reaches 4million
-            //{
-            //    if ((outcome % 2) == 0 ) //the actual result
-            //    {
-            //        added += outcome;
-            //    }//end if
+            // Each new term in the Fibonacci sequence is generated
+            //by adding the previous two terms.By starting with
+            //1 and 2, the first 10 terms will be:
 
-            //    outcome = numb1 + numb2;
-            //    numb2 = numb1;
-            //    numb1 = outcome;
+            //1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 
-            //    Console.ReadLine();
+            //By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-            //}//end while
+            //Remember to commit changes to the repository.Submit your repo url to this assignment.
+
+
 
             long firstNumb = 1;
             long secondNumb = 2;        //Declare all of the variables
@@ -83,7 +77,7 @@ namespace FibonacciChallenge
 
             while (thirdNumb < 4000000) //this is "flag" to stop the loop once it reaches 4mill
             {
-                if (thirdNumb % 2 == 0) //anything devided by 2 is going to have a remainder of 0. So we will know that its even.
+                if (thirdNumb % 2 == 0) //any whole number devided by 2 is going to have a remainder of 0. So we will know that its even.
                 {
                     sum = thirdNumb + sum; //since "thirdNumb" is the most recent even number we use that and add the sum.
 
