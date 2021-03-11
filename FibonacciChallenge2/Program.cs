@@ -20,7 +20,7 @@ namespace FibonacciChallenge2
 
             List<long> fib = new List<long>();
 
-            while (thirdNumb < 10000000000) //this is "flag" to stop the loop once it reaches 4mill
+            while (thirdNumb < 10000000000) //this is "flag" to stop the loop once it reaches 11 digits
             {
                 // if (thirdNumb % 2 == 0) //any  number devided by 2 that equals 0,  we will know that its even.
                 //{
@@ -52,7 +52,7 @@ namespace FibonacciChallenge2
             Console.WriteLine("Index of # with 10 digits is " + indexNumb );
 
 
-            Console.WriteLine($"This is the Fibonacci Sequence that contains 10 digits: " + fib[fib.FindIndex(h => h.ToString().Length == 10)]);
+            Console.WriteLine($"This is the Fibonacci Sequence that contains 10 digits: " + fib[fib.FindIndex(v => v.ToString().Length == 10)]);
 
             // Console.WriteLine(String.Join(" ", fib)); //converting the List into a string. The first param will go between the first index
             
