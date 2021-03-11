@@ -54,7 +54,7 @@ namespace FibonacciChallenge2
 
             Console.WriteLine($"This is the Fibonacci Sequence that contains 10 digits: " + fib[fib.FindIndex(v => v.ToString().Length == 10)]);
 
-            // Console.WriteLine(String.Join(" ", fib)); //converting the List into a string. The first param will go between the first index
+            Console.WriteLine(String.Join(" ", fib)); //converting the List into a string. The first param will go between the first index
             
 
 
