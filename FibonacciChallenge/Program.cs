@@ -77,7 +77,7 @@ namespace FibonacciChallenge
 
             while (thirdNumb < 4000000) //this is "flag" to stop the loop once it reaches 4mill
             {
-                if (thirdNumb % 2 == 0) //any whole number devided by 2 is going to have a remainder of 0. So we will know that its even.
+                if (thirdNumb % 2 == 0) //any  number devided by 2 that equals 0,  we will know that its even.
                 {
                     sum = thirdNumb + sum; //since "thirdNumb" is the most recent even number we use that and add the sum.
 
